@@ -40,7 +40,6 @@ export class window{
                 call_back_args : [],
             },
 
-<<<<<<< HEAD
             //for window open
             open : {
                 call_back_function : null,
@@ -52,8 +51,6 @@ export class window{
                 call_back_function : null,
                 call_back_args : [],
             },
-=======
->>>>>>> 2e20fdf3dbaa9a4739ca6b82a2009eea0a657c61
         },
     }
 
@@ -91,7 +88,6 @@ export class window{
         this.dom.resize_dr = this.dom.window.querySelectorAll(".resize_corner")[3];
         // end of "locate" =========================================================
         
-<<<<<<< HEAD
 
         // check if some mandatory or required element missing =====================
         if(!this.dom.container){
@@ -138,7 +134,6 @@ export class window{
             this.dom.resize_l.parentNode.removeChild(this.dom.resize_l);
             this.dom.resize_r.parentNode.removeChild(this.dom.resize_r);
 
-=======
 
         // check if some mandatory or required element missing =====================
         if(!this.dom.container){
@@ -185,7 +180,6 @@ export class window{
             this.dom.resize_l.parentNode.removeChild(this.dom.resize_l);
             this.dom.resize_r.parentNode.removeChild(this.dom.resize_r);
 
->>>>>>> 2e20fdf3dbaa9a4739ca6b82a2009eea0a657c61
             this.dom.resize_l = null;
             this.dom.resize_r = null;
         }
@@ -276,7 +270,7 @@ export class window{
             this.#env.drag.is_window_in_drag  = false;
             // drop window
             document.onmousemove = null;
-<<<<<<< HEAD
+
 
             // if there's call_back_function for "drag_end" 
             if(this.#env.drag.end.call_back_function){
@@ -286,7 +280,7 @@ export class window{
 
         });
 
-=======
+
 
             // if there's call_back_function for "drag_end" 
             if(this.#env.drag.end.call_back_function){
@@ -296,7 +290,7 @@ export class window{
 
         });
 
->>>>>>> 2e20fdf3dbaa9a4739ca6b82a2009eea0a657c61
+
         // end of "setup Drag functionalities" ========================================
 
 
