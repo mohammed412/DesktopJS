@@ -392,8 +392,8 @@ export class window{
                 if(typeof(call_back_function) == "function"){
                     
                     // save call_back_function and it's arguments
-                    this.#env.open.end.call_back_function = call_back_function;
-                    this.#env.open.end.call_back_args = args;
+                    this.#env.open.call_back_function = call_back_function;
+                    this.#env.open.call_back_args = args;
 
                 }
                 else{ // it means call_back_function is not function 
@@ -408,8 +408,8 @@ export class window{
                 if(typeof(call_back_function) == "function"){
                     
                     // save call_back_function and it's arguments
-                    this.#env.close.end.call_back_function = call_back_function;
-                    this.#env.close.end.call_back_args = args;
+                    this.#env.close.call_back_function = call_back_function;
+                    this.#env.close.call_back_args = args;
 
                 }
                 else{ // it means call_back_function is not function 
